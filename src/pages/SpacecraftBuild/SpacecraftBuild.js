@@ -35,7 +35,8 @@ function SpacecraftBuild ()
 
   enableLoading();
   
-  const { data, isError, errorMessage } = await SpaceTravelApi.createSpacecraft(spacecraft);
+  const { data, isError, errorMessage } = 
+  await SpaceTravelApi.buildSpacecraft(spacecraft);
   
   disableLoading();
 

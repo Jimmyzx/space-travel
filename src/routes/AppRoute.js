@@ -19,7 +19,7 @@ return (  // DONE todo render routes
 
     <Route path="/spacecrafts/build" element={<SpacecraftBuild />} />
 
-    <Route path="/spacecrafts/:id" element={<Spacecraft />} />
+    <Route path="/spacecraft/:id" element={<Spacecraft />} />
 
     <Route path="/planets" element={<Planets />} />
   </Routes>
