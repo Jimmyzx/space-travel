@@ -7,14 +7,14 @@ import SpaceTravelApi from "../../services/SpaceTravelApi";
 
 function Spacecrafts ()
 {
-  const [spacecrafts, setSpacecrafts] = useState([]);
+  const [spacecrafts, sendSpacecraftToPlanet] = useState([]);
   const {enableLoading, disableLoading} = useContext(LoadingContext);
 
   async function getSpacecrafts ()
   {
     // DONE todo get spacecrafts using the API
     const { data: spacecrafts } = await SpaceTravelApi.getSpacecrafts();
-    setSpacecrafts(spacecrafts);
+    sendSpacecraftToPlanet(spacecrafts);
   }
   
   useEffect(() =>
