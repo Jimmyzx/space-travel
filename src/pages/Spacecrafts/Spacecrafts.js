@@ -36,7 +36,7 @@ function Spacecrafts ()
   function handleClickOfBuild ()
   {
     // DONE todo navigate to build spacecraft page
-    navigate('/spacecrafts/build');
+    navigate('/spacecraft/build');
   }
   
   function handleClickOfImageContainer (event, id)
