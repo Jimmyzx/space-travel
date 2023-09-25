@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/space-travel/static/css/main.5aa56665.css",
-    "main.js": "/space-travel/static/js/main.fe5f91e5.js",
+    "main.css": "/space-travel/static/css/main.aaa69b6f.css",
+    "main.js": "/space-travel/static/js/main.be2dc643.js",
+    "static/media/starfield.gif": "/space-travel/static/media/starfield.d572de266902425992c3.gif",
     "index.html": "/space-travel/index.html",
-    "main.5aa56665.css.map": "/space-travel/static/css/main.5aa56665.css.map",
-    "main.fe5f91e5.js.map": "/space-travel/static/js/main.fe5f91e5.js.map"
+    "main.aaa69b6f.css.map": "/space-travel/static/css/main.aaa69b6f.css.map",
+    "main.be2dc643.js.map": "/space-travel/static/js/main.be2dc643.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aa56665.css",
-    "static/js/main.fe5f91e5.js"
+    "static/css/main.aaa69b6f.css",
+    "static/js/main.be2dc643.js"
   ]
 }
