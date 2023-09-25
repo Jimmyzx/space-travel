@@ -1,10 +1,12 @@
+import React from "react";
 import styles from "./Home.module.css";
 
 function Home() {
   return (
-    // DONE todo
-    <div className={styles.home}>
-      <h1>Home</h1> 
+    <div className={styles.pageBackground}>
+      <div className={styles.home}>
+        <h1>Home</h1>
+      </div>
     </div>
   );
 }
