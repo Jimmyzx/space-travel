@@ -12,7 +12,7 @@ function Loading ()
                          {
                            if (dots.length < 5)
                            {
-                             setDots(prevDots => [...prevDots, "."]);
+                             setDots(prevDots => [...prevDots, "🌎"]);
                            }
                          },
                          200
